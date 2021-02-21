@@ -1,0 +1,265 @@
+@media (max-width: 1199px) and (min-width: 992px) {
+  .features {
+    width: 23%;
+    float: left;
+    margin-right: 7px;
+    margin-bottom: 60px;
+  }
+  .top-selling {
+    width: 23%;
+    float: left;
+    margin-right: 7px;
+    margin-bottom: 20px;
+  }
+  .content .search-bar {
+    min-width: 40%;
+  }
+  .menuBar {
+    width: 460px;
+  }
+  .menuBar > ul > li {
+    margin: 0px;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .features {
+    width: 23%;
+    float: left;
+    margin-right: 7px;
+    margin-bottom: 60px;
+  }
+  .top-selling {
+    width: 23%;
+    float: left;
+    margin-right: 7px;
+    margin-bottom: 20px;
+  }
+  .top-header {
+    height: auto;
+    text-align: center;
+    padding: 5px 0px;
+  }
+  .top-header .right-bar {
+    width: 100%;
+  }
+  .content .search-bar {
+    margin-left: 0px;
+    min-width: 500px;
+    width: 88%;
+  }
+  .cart {
+    position: absolute;
+    top: 48px;
+    right: 0px;
+  }
+  .logo {
+    margin-bottom: 15px;
+  }
+  .menuBar {
+    width: 460px;
+  }
+  .menuBar > ul > li {
+    margin: 0px;
+  }
+  nav {
+    height: 77px;
+  }
+  .category {
+    float: left;
+    width: 160px;
+  }
+  .cat-icon a {
+    padding: 29px 10px;
+  }
+  .cat-icon i {
+    font-size: 14px;
+  }
+  .menuBar {
+    width: 345px;
+  }
+  .menuBar > ul {
+    width: 345px;
+    float: left;
+  }
+  .menuBar > ul > li > a {
+    font-size: 14px;
+    padding: 30px 5px;
+  }
+  .phone-icon a {
+    font-size: 14px;
+  }
+  .ads-text h3 {
+    line-height: 35px;
+  }
+  .feature-items {
+    padding: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .features {
+    width: 23%;
+    float: left;
+    margin-right: 7px;
+    margin-bottom: 60px;
+  }
+  .top-selling {
+    width: 23%;
+    float: left;
+    margin-right: 7px;
+    margin-bottom: 20px;
+  }
+  .content .search-bar {
+    margin-left: 0px;
+    min-width: 500px;
+    width: 88%;
+  }
+  .cart {
+    position: absolute;
+    top: 48px;
+    right: 0px;
+  }
+  nav {
+    height: 77px;
+  }
+  .category {
+    float: left;
+    width: 160px;
+  }
+  .cat-icon a {
+    padding: 29px 10px;
+  }
+  .cat-icon i {
+    font-size: 11px;
+  }
+  .cat-icon span {
+    font-size: 11px;
+  }
+  .menuBar {
+    width: 310px;
+  }
+  .menuBar > ul {
+    width: 345px;
+    float: left;
+  }
+  .menuBar > ul > li > a {
+    font-size: 14px;
+    padding: 30px 5px;
+  }
+  .phone-icon a {
+    font-size: 11px;
+  }
+  .slide {
+    width: 100%;
+    position: relative;
+  }
+  .banner {
+    width: 100%;
+  }
+  .phone-banr {
+    width: 39%;
+    float: left;
+  }
+  .ads-banr {
+    width: 39%;
+    float: left;
+  }
+  .feature-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+}
+@media (max-width: 644px) {
+  .features {
+    width: 23%;
+    float: right;
+    margin-right: 7px;
+    margin-bottom: 60px;
+  }
+  .top-selling {
+    width: 23%;
+    float: left;
+    margin-right: 7px;
+    margin-bottom: 20px;
+  }
+  .content .search-bar {
+    margin-left: 0px;
+    min-width: 377px;
+    width: 80%;
+  }
+  .cart {
+    position: absolute;
+    top: 48px;
+    right: 0px;
+  }
+  nav {
+    height: 77px;
+  }
+  .category {
+    float: left;
+    width: 160px;
+  }
+  .cat-icon a {
+    padding: 27px 10px;
+  }
+  .cat-icon i {
+    font-size: 14px;
+  }
+  .menuBar {
+    width: 100%;
+    position: relative;
+    background: red;
+    z-index: 9;
+    display: none;
+  }
+  .menuBar > ul {
+    float: left;
+    width: 100%;
+  }
+  .menuBar > ul > li {
+    margin: 0px;
+    width: 100%;
+  }
+  .menuBar > ul > li > a {
+    font-size: 14px;
+    padding: 17px 10px;
+    width: 96.5%;
+  }
+  .toggler-button {
+    display: block;
+  }
+  .menuShow {
+    width: 100% !important;
+    position: relative !important;
+    z-index: 9 !important;
+    display: block !important;
+  }
+  .menuShow > ul {
+    float: left;
+    width: 100%;
+    background: orange;
+  }
+  .phone {
+    display: none;
+  }
+  .slide {
+    width: 100%;
+    position: relative;
+  }
+  .banner {
+    width: 100%;
+  }
+  .phone-banr {
+    width: 35%;
+    float: left;
+  }
+  .ads-banr {
+    width: 35%;
+    float: left;
+  }
+  .ads-text h3 {
+    line-height: 35px;
+  }
+  
+}

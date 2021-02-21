@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Build Your E-commerce Website</title>
+    <!--Custom css link-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Bootstrap css link-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!--product slider css link-->
+    <link rel="stylesheet" href="css/product.css" />
+    <!--lightSlider css and js link-->
+    <link rel="stylesheet" href="css/lightslider.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/lightslider.js"></script>
+    <!--Responsive css link-->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!--Font awesome-->
+    <script
+      src="https://kit.fontawesome.com/686509c997.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Text animation css link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <!--Top header-->
+      <div class="top-header" id="top">
+        <div class="containers">
+          <p>Welcome to Bashar</p>
+          <div class="right-bar">
+            <ul>
+              <li><a href="#">Login/Register</a></li>
+              <li>
+                <select name="currency" id="currency">
+                  <option value="USD">USD</option>
+                  <option value="BD">BD</option>
+                  <option value="EURO">EURO</option>
+                </select>
+              </li>
+              <li>
+                <select name="lang" id="lang">
+                  <option value="Bangla">Bangla</option>
+                  <option value="English">English</option>
+                  <option value="Hindi">Hindi</option>
+                </select>
+              </li>
+            </ul>
+            <div class="social-icon-top">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Logo, search and card bar-->
+      <div class="middle-bar">
+        <div class="containers">
+          <div class="content">
+            <div class="logo">
+              <a href="#top" id="anchor">
+                <img src="./img/logo.png" />
+              </a>
+            </div>
+            <div class="search-bar">
+              <input
+                type="text"
+                placeholder="Search Product here..."
+                id="search"
+              />
+              <button class="submit" type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+            <div class="cart">
+              <a href="#" id="anchor">
+                <i class="fas fa-shopping-cart"></i>
+                <div class="text">
+                  <strong>My Cart</strong>
+                </div>
+                <div class="count">
+                  <span>3 item(s) - $400</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Main menu bar-->
+      <nav>
+        <div class="containers">
+          <div class="navbars">
+            <span class="toggler-button" id="collapses"
+              ><i class="fas fa-bars"></i
+            ></span>
+            <div class="category">
+              <div class="cat-icon">
+                <a href="#" class="showAndHideCat">
+                  <i class="fas fa-bars"></i><span>Category</span>
+                </a>
+                <div class="sub-category">
+                  <ul>
+                    <li><a href="#">Audio</a></li>
+                    <li><a href="#">Video Games</a></li>
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">Freeze</a></li>
+                    <li><a href="#">Micro Wave Oven</a></li>
+                    <li><a href="#">iPhone</a></li>
+                    <li><a href="#">Android</a></li>
+                    <li><a href="#">Apple</a></li>
+                    <li><a href="#">Linux</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="menuBar">
+              <ul>
+                <li id="li" class="actives"><a href="#">Home</a></li>
+                <li id="li"><a href="#">Product</a></li>
+                <li id="li"><a href="#">Shop</a></li>
+                <li id="li"><a href="#">Feature</a></li>
+                <li id="li"><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="phone">
+              <div class="phone-icon">
+                <a href="#">
+                  <i class="fas fa-phone-alt"></i><span>(+880) 1758369875</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--Main Slider-->
+      <div class="slides">
+        <div class="containers">
+          <div class="slideContainer">
+            <div class="slide actives">
+              <div class="d-flex">
+                <div class="contents">
+                  <h3
+                    class="animate__animated animate__lightSpeedInLeft animate__slow"
+                  >
+                    World's No.1 Nikon Camera
+                  </h3>
+                  <p
+                    class="animate__animated animate__flipInX animate__slow animate__delay-2s"
+                  >
+                    We take photos in case of celebrations such as birthdays,
+                    marriage, anniversaries, etc
+                  </p>
+                  <h4
+                    class="animate__animated animate__bounceInDown animate__slow animate__delay-2s"
+                  >
+                    Price: <del>$320.99</del>&nbsp;$280.99
+                  </h4>
+                  <div
+                    class="animate__animated animate__bounceInUp animate__slow animate__delay-3s"
+                  >
+                    <a href="#">BUY NOW</a>
+                  </div>
+                </div>
+                <div class="image">
+                  <img src="./img/camera.png" width="100%" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="d-flex">
+                <div class="contents">
+                  <h3
+                    class="animate__animated animate__bounceInDown animate__slow"
+                  >
+                    Super-Duper Video Camera
+                  </h3>
+                  <p
+                    class="animate__animated animate__flipInX animate__slow animate__delay-2s"
+                  >
+                    The video cameras also provide the feature of recording the
+                    audio while the video is shot.
+                  </p>
+                  <h4
+                    class="animate__animated animate__bounceInDown animate__slow animate__delay-2s"
+                  >
+                    Price: <del>$520.99</del>&nbsp;$340.99
+                  </h4>
+                  <div
+                    class="animate__animated animate__bounceInDown animate__slow animate__delay-3s"
+                  >
+                    <a href="#">BUY NOW</a>
+                  </div>
+                </div>
+                <div class="image">
+                  <img src="./img/video-camera.png" width="100%" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="d-flex">
+                <div class="contents">
+                  <h3
+                    class="animate__animated animate__lightSpeedInRight animate__slow"
+                  >
+                    Gorgeous smart watch
+                  </h3>
+                  <p
+                    class="animate__animated animate__lightSpeedInRight animate__slow animate__delay-1s"
+                  >
+                    A Clock is a device used to keep, measure, and indicate time
+                  </p>
+                  <h4
+                    class="animate__animated animate__lightSpeedInRight animate__slow animate__delay-2s"
+                  >
+                    Price: <del>$220.99</del>&nbsp;$150.99
+                  </h4>
+                  <div
+                    class="animate__animated animate__lightSpeedInRight animate__slow animate__delay-3s"
+                  >
+                    <a href="#">BUY NOW</a>
+                  </div>
+                </div>
+                <div class="image">
+                  <img src="./img/slider-img-2.png" width="100%" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="d-flex">
+                <div class="contents">
+                  <h3
+                    class="animate__animated animate__lightSpeedInRight animate__slow"
+                  >
+                    Super Power Gaming Computer
+                  </h3>
+                  <p
+                    class="animate__animated animate__lightSpeedInLeft animate__slow animate__delay-1s"
+                  >
+                    Headphones are a pair of small loudspeaker drivers worn on
+                    or around the pinnacle over a user's ears.
+                  </p>
+                  <h4
+                    class="animate__animated animate__lightSpeedInRight animate__slow animate__delay-2s"
+                  >
+                    Price: <del>$820.99</del>&nbsp;$670.99
+                  </h4>
+                  <div
+                    class="animate__animated animate__lightSpeedInLeft animate__slow animate__delay-3s"
+                  >
+                    <a href="#">BUY NOW</a>
+                  </div>
+                </div>
+                <div class="image">
+                  <img src="./img/gaming-computer.png" width="100%" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="banner">
+              <div class="product">
+                <div class="phone-banr">
+                  <div class="phone-text">
+                    <h4>The Best Phone</h4>
+                    <h3>Galaxy J7</h3>
+                    <h2>Price: $159.89</h2>
+                  </div>
+                </div>
+                <div class="ads-banr">
+                  <div class="ads-text">
+                    <h3>Special Offer Sale!</h3>
+                    <h4>
+                      Saving up to 50% off all online store items this week.
+                    </h4>
+                    <a href="#">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--Our Feature section-->
+    <section id="feature-section">
+      <div class="containers">
+        <div class="feature-full">
+          <div class="feature-wrapper">
+            <div class="feature-items">
+              <div class="feature-single-item">
+                <div class="feature-icon">
+                  <span><i class="fas fa-truck"></i></span>
+                </div>
+                <div class="feature-contents">
+                  <h3>Fast Delivery</h3>
+                  <p>Any where in BD</p>
+                </div>
+              </div>
+            </div>
+            <div class="feature-items">
+              <div class="feature-single-item">
+                <div class="feature-icon">
+                  <span><i class="fas fa-money-check-alt"></i></span>
+                </div>
+                <div class="feature-contents">
+                  <h3>Payment Method</h3>
+                  <p>Bank, bkash and Rocket</p>
+                </div>
+              </div>
+            </div>
+            <div class="feature-items">
+              <div class="feature-single-item">
+                <div class="feature-icon">
+                  <span><i class="fas fa-headset"></i></span>
+                </div>
+                <div class="feature-contents">
+                  <h3>24/7 Support</h3>
+                  <p>Phone: (+880) 123456789</p>
+                </div>
+              </div>
+            </div>
+            <div class="feature-items">
+              <div class="feature-single-item">
+                <div class="feature-icon">
+                  <span><i class="fas fa-shipping-fast"></i></span>
+                </div>
+                <div class="feature-contents">
+                  <h3>Free Shipping</h3>
+                  <p>Upto $120</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Product Slider section-->
+    <section id="slider-section">
+      <div class="containers">
+        <ul class="nav nav-tabs nav-pills mb-3">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              data-toggle="tab"
+              href="#home"
+              >All</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              data-toggle="tab"
+              href="#profile"
+              >Featured</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              data-toggle="tab"
+              href="#contact"
+              >Review</a
+            >
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="home"
+            role="tabpanel"
+            aria-labelledby="pills-home-tab"
+          >
+          <!--All slider tabs-->
+          <div class="slider">
+            <div class="item">
+              <ul id="content-slider" class="content-slider">
+                <li>
+                  <div class="productWrapper">
+                    <div class="productItem">
+                      <div class="product-img">
+                        <img src="./img/product/1.png" width="100%" alt="" />
+                      </div>
+                      <div class="cat-name">
+                        <p>Electronic</p>
+                      </div>
+                      <div class="product-description">
+                        <a href="#"
+                          >Lorem ipsum, dolor sit amet consectetur adipisicing
+                          elit.</a
+                        >
+                        <div class="review">
+                          <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                          </div>
+                          <div class="review-text">
+                            <p>5 Review</p>
+                          </div>
+                        </div>
+                        <div class="price">
+                          <h5>$152.78 <del>$198.99</del></h5>
+                          <div class="add-to-cart">
+                            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!----------product 1-->
+                <li>
+                  <div class="productWrapper">
+                    <div class="productItem">
+                      <div class="product-img">
+                        <img src="./img/product/2.png" width="100%" alt="" />
+                      </div>
+                      <div class="cat-name">
+                        <p>Accessories</p>
+                      </div>
+                      <div class="product-description">
+                        <a href="#"
+                          >Lorem ipsum, dolor sit amet consectetur adipisicing
+                          elit.</a
+                        >
+                        <div class="review">
+                          <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                          </div>
+                          <div class="review-text">
+                            <p>5 Review</p>
+                          </div>
+                        </div>
+                        <div class="price">
+                          <h5>$215.99 <del>$175.98</del></h5>
+                          <div class="add-to-cart">
+                            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!----------product 2-->
+                <li>
+                  <div class="productWrapper">
+                    <div class="productItem">
+                      <div class="product-img">
+                        <img src="./img/product/3.png" width="100%" alt="" />
+                      </div>
+                      <div class="cat-name">
+                        <p>Android</p>
+                      </div>
+                      <div class="product-description">
+                        <a href="#"
+                          >Lorem ipsum, dolor sit amet consectetur adipisicing
+                          elit.</a
+                        >
+                        <div class="review">
+                          <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                          </div>
+                          <div class="review-text">
+                            <p>5 Review</p>
+                          </div>
+                        </div>
+                        <div class="price">
+                          <h5>$150.65 <del>$205.99</del></h5>
+                          <div class="add-to-cart">
+                            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!----------product 3-->
+                <li>
+                  <div class="productWrapper">
+                    <div class="productItem">
+                      <div class="product-img">
+                        <img src="./img/product/4.png" width="100%" alt="" />
+                      </div>
+                      <div class="cat-name">
+                        <p>Electronic</p>
+                      </div>
+                      <div class="product-description">
+                        <a href="#"
+                          >Lorem ipsum, dolor sit amet consectetur adipisicing
+                          elit.</a
+                        >
+                        <div class="review">
+                          <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                          </div>
+                          <div class="review-text">
+                            <p>5 Review</p>
+                          </div>
+                        </div>
+                        <div class="price">
+                          <h5>$254.99 <del>$210.99</del></h5>
+                          <div class="add-to-cart">
+                            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!----------product 4-->
+                <li>
+                  <div class="productWrapper">
+                    <div class="productItem">
+                      <div class="product-img">
+                        <img src="./img/product/5.png" width="100%" alt="" />
+                      </div>
+                      <div class="cat-name">
+                        <p>Audio & Video</p>
+                      </div>
+                      <div class="product-description">
+                        <a href="#"
+                          >Lorem ipsum, dolor sit amet consectetur adipisicing
+                          elit.</a
+                        >
+                        <div class="review">
+                          <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                          </div>
+                          <div class="review-text">
+                            <p>5 Review</p>
+                          </div>
+                        </div>
+                        <div class="price">
+                          <h5>$254.99 <del>$354.99</del></h5>
+                          <div class="add-to-cart">
+                            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!----------product 5-->
+                <li>
+                  <div class="productWrapper">
+                    <div class="productItem">
+                      <div class="product-img">
+                        <img src="./img/product/7.png" width="100%" alt="" />
+                      </div>
+                      <div class="cat-name">
+                        <p>Linux</p>
+                      </div>
+                      <div class="product-description">
+                        <a href="#"
+                          >Lorem ipsum, dolor sit amet consectetur adipisicing
+                          elit.</a
+                        >
+                        <div class="review">
+                          <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                          </div>
+                          <div class="review-text">
+                            <p>5 Review</p>
+                          </div>
+                        </div>
+                        <div class="price">
+                          <h5>$754.99 <del>$800.99</del></h5>
+                          <div class="add-to-cart">
+                            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!----------product 6-->
+                <li>
+                  <div class="productWrapper">
+                    <div class="productItem">
+                      <div class="product-img">
+                        <img src="./img/product/8.png" width="100%" alt="" />
+                      </div>
+                      <div class="cat-name">
+                        <p>Laptop</p>
+                      </div>
+                      <div class="product-description">
+                        <a href="#"
+                          >Lorem ipsum, dolor sit amet consectetur adipisicing
+                          elit.</a
+                        >
+                        <div class="review">
+                          <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                          </div>
+                          <div class="review-text">
+                            <p>5 Review</p>
+                          </div>
+                        </div>
+                        <div class="price">
+                          <h5>$564.99 <del>$650.99</del></h5>
+                          <div class="add-to-cart">
+                            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!----------product 7-->
+              </ul>
+            </div>
+          </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="profile"
+            role="tabpanel"
+            aria-labelledby="pills-profile-tab"
+          >
+          <!--Features slider tabs-->
+          <div class="productWrapper features">
+            <div class="productItem">
+              <div class="product-img">
+                <img src="./img/product/10.png" width="100%" alt="" />
+              </div>
+              <div class="cat-name">
+                <p>Electronic</p>
+              </div>
+              <div class="product-description">
+                <a href="#"
+                  >Lorem ipsum, dolor sit amet consectetur adipisicing
+                  elit.</a
+                >
+                <div class="review">
+                  <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                  </div>
+                  <div class="review-text">
+                    <p>5 Review</p>
+                  </div>
+                </div>
+                <div class="price">
+                  <h5>$152.78 <del>$198.99</del></h5>
+                  <div class="add-to-cart">
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!----------product 1-->
+          <div class="productWrapper features">
+            <div class="productItem">
+              <div class="product-img">
+                <img src="./img/product/5.png" width="100%" alt="" />
+              </div>
+              <div class="cat-name">
+                <p>Accessories</p>
+              </div>
+              <div class="product-description">
+                <a href="#"
+                  >Lorem ipsum, dolor sit amet consectetur adipisicing
+                  elit.</a
+                >
+                <div class="review">
+                  <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                  </div>
+                  <div class="review-text">
+                    <p>5 Review</p>
+                  </div>
+                </div>
+                <div class="price">
+                  <h5>$215.99 <del>$175.98</del></h5>
+                  <div class="add-to-cart">
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!----------product 2-->
+          <div class="productWrapper reviews features">
+            <div class="productItem">
+              <div class="product-img">
+                <img src="./img/product/8.png" width="100%" alt="" />
+              </div>
+              <div class="cat-name">
+                <p>Android</p>
+              </div>
+              <div class="product-description">
+                <a href="#"
+                  >Lorem ipsum, dolor sit amet consectetur adipisicing
+                  elit.</a
+                >
+                <div class="review">
+                  <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                  </div>
+                  <div class="review-text">
+                    <p>5 Review</p>
+                  </div>
+                </div>
+                <div class="price">
+                  <h5>$150.65 <del>$205.99</del></h5>
+                  <div class="add-to-cart">
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!----------product 3-->
+          <div class="productWrapper features">
+            <div class="productItem">
+              <div class="product-img">
+                <img src="./img/product/9.png" width="100%" alt="" />
+              </div>
+              <div class="cat-name">
+                <p>Electronic</p>
+              </div>
+              <div class="product-description">
+                <a href="#"
+                  >Lorem ipsum, dolor sit amet consectetur adipisicing
+                  elit.</a
+                >
+                <div class="review">
+                  <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                  </div>
+                  <div class="review-text">
+                    <p>5 Review</p>
+                  </div>
+                </div>
+                <div class="price">
+                  <h5>$254.99 <del>$210.99</del></h5>
+                  <div class="add-to-cart">
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!----------product 4-->
+          </div>
+          <div
+            class="tab-pane fade"
+            id="contact"
+            role="tabpanel"
+            aria-labelledby="pills-contact-tab"
+          >
+            <!--Review slider tabs-->
+          <div class="productWrapper features">
+            <div class="productItem">
+              <div class="product-img">
+                <img src="./img/product/3.png" width="100%" alt="" />
+              </div>
+              <div class="cat-name">
+                <p>Electronic</p>
+              </div>
+              <div class="product-description">
+                <a href="#"
+                  >Lorem ipsum, dolor sit amet consectetur adipisicing
+                  elit.</a
+                >
+                <div class="review">
+                  <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                  </div>
+                  <div class="review-text">
+                    <p>5 Review</p>
+                  </div>
+                </div>
+                <div class="price">
+                  <h5>$152.78 <del>$198.99</del></h5>
+                  <div class="add-to-cart">
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!----------product 1-->
+          <div class="productWrapper features">
+            <div class="productItem">
+              <div class="product-img">
+                <img src="./img/product/11.png" width="100%" alt="" />
+              </div>
+              <div class="cat-name">
+                <p>Accessories</p>
+              </div>
+              <div class="product-description">
+                <a href="#"
+                  >Lorem ipsum, dolor sit amet consectetur adipisicing
+                  elit.</a
+                >
+                <div class="review">
+                  <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                  </div>
+                  <div class="review-text">
+                    <p>5 Review</p>
+                  </div>
+                </div>
+                <div class="price">
+                  <h5>$215.99 <del>$175.98</del></h5>
+                  <div class="add-to-cart">
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!----------product 2-->
+          <div class="productWrapper reviews features">
+            <div class="productItem">
+              <div class="product-img">
+                <img src="./img/product/7.png" width="100%" alt="" />
+              </div>
+              <div class="cat-name">
+                <p>Android</p>
+              </div>
+              <div class="product-description">
+                <a href="#"
+                  >Lorem ipsum, dolor sit amet consectetur adipisicing
+                  elit.</a
+                >
+                <div class="review">
+                  <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                  </div>
+                  <div class="review-text">
+                    <p>5 Review</p>
+                  </div>
+                </div>
+                <div class="price">
+                  <h5>$150.65 <del>$205.99</del></h5>
+                  <div class="add-to-cart">
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!----------product 3-->
+          <div class="productWrapper features">
+            <div class="productItem">
+              <div class="product-img">
+                <img src="./img/product/2.png" width="100%" alt="" />
+              </div>
+              <div class="cat-name">
+                <p>Electronic</p>
+              </div>
+              <div class="product-description">
+                <a href="#"
+                  >Lorem ipsum, dolor sit amet consectetur adipisicing
+                  elit.</a
+                >
+                <div class="review">
+                  <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                  </div>
+                  <div class="review-text">
+                    <p>5 Review</p>
+                  </div>
+                </div>
+                <div class="price">
+                  <h5>$254.99 <del>$210.99</del></h5>
+                  <div class="add-to-cart">
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!----------product 4-->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Weekly top selling section-->
+    <section id="top-selling">
+      <div class="containers">
+        <div class="top-selling-heading">
+          <p>Top Selling Of The Day</p>
+          <span id="borderBottom"></span>
+        </div>
+        <div class="top-selling-autoSlider">
+          <div class="topSellingSlider">
+            <div class="d-flex">
+              <div class="descriptions">
+                <h5>
+                  World's No.1 Nikon Camera
+                </h5>
+                <p>
+                  Lorem ipsum dolor sit amet.
+                </p>
+                <h5>
+                  Price: <del>$320.99</del>&nbsp;$280.99
+                </h5>
+                <div>
+                  <a href="#">BUY NOW</a>
+                </div>
+              </div>
+              <div class="top-sell-img">
+                <img src="./img/product/9.png" width="100%" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Second product slider-->
+        <div class="product-box">
+          <div class="productWrapper top-selling">
+            <div class="productItem">
+              <div class="product-img">
+                <img src="./img/product/5.png" width="100%" alt="" />
+              </div>
+              <div class="cat-name">
+                <p>Electronic</p>
+              </div>
+              <div class="product-description">
+                <a href="#"
+                  >Lorem ipsum, dolor sit amet consectetur adipisicing
+                  elit.</a
+                >
+                <div class="review">
+                  <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                  </div>
+                  <div class="review-text">
+                    <p>5 Review</p>
+                  </div>
+                </div>
+                <div class="price">
+                  <h5>$254.99 <del>$210.99</del></h5>
+                  <div class="add-to-cart">
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!----------product 1-->
+        <div class="productWrapper top-selling">
+          <div class="productItem">
+            <div class="product-img">
+              <img src="./img/product/1.png" width="100%" alt="" />
+            </div>
+            <div class="cat-name">
+              <p>iPhone</p>
+            </div>
+            <div class="product-description">
+              <a href="#"
+                >Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit.</a
+              >
+              <div class="review">
+                <div class="star">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                </div>
+                <div class="review-text">
+                  <p>5 Review</p>
+                </div>
+              </div>
+              <div class="price">
+                <h5>$254.99 <del>$210.99</del></h5>
+                <div class="add-to-cart">
+                  <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!----------product 2-->
+        <div class="productWrapper top-selling">
+          <div class="productItem">
+            <div class="product-img">
+              <img src="./img/product/4.png" width="100%" alt="" />
+            </div>
+            <div class="cat-name">
+              <p>Electronic</p>
+            </div>
+            <div class="product-description">
+              <a href="#"
+                >Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit.</a
+              >
+              <div class="review">
+                <div class="star">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                </div>
+                <div class="review-text">
+                  <p>5 Review</p>
+                </div>
+              </div>
+              <div class="price">
+                <h5>$254.99 <del>$210.99</del></h5>
+                <div class="add-to-cart">
+                  <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!----------product 3-->
+        </div>
+      </div>
+    </section>
+    <!--Category ways product-->
+    <section id="category-product">
+      <div class="containers">
+        
+      </div>
+    </section>
+    <!--Bootstrap JS link-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--Product slider js link-->
+    <script src="js/productSlider.js"></script>
+    <!--Custom JS link-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
